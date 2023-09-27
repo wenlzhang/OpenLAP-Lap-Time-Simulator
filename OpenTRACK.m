@@ -63,9 +63,21 @@ fclose('all') ;
 % filename = 'Monza Data.csv' ;
 % filename = 'OpenTRACK Laguna Seca Data.csv' ;
 % filename = 'OpenTRACK Paul Ricard Data.csv' ;
-filename = 'OpenTRACK_FSAE_UK_Endurance_2015.xlsx' ;
+% filename = 'OpenTRACK_FSAE_UK_Endurance_2015.xlsx' ;  % does not exist
 % filename = 'OpenTRACK KZ2 Kart Data - Rhodes.csv' ;
 % filename = 'OpenTRACK KZ2 Kart Data - Athens.csv' ;
+
+% Self added section 📝 2023-09-27T10:43
+%% logged data
+% filename = 'Paul Ricard Data.csv' ;  % Works
+% filename = 'Portaria Data.csv' ;
+
+%% shape data
+% filename = 'Spa-Francorchamps.xlsx';  % Works
+% filename = 'Indianapolis Motor Speedway.xlsx';  % Works
+% filename = 'FSAE Skidpad.xlsx';  % Works
+% filename = 'Donington Park.xlsx';  % Works
+filename = 'Autodromo Nazionale Monza.xlsx';  % Works
 
 %% Mode selection
 
