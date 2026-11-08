@@ -69,7 +69,7 @@ fclose('all') ;
 
 % Self added section 📝 2023-09-27T10:43
 %% logged data
-% filename = 'Paul Ricard Data.csv' ;  % Works
+filename = 'Paul Ricard Data.csv' ;  % Works
 % filename = 'Portaria Data.csv' ;
 
 %% shape data
@@ -77,12 +77,12 @@ fclose('all') ;
 % filename = 'Indianapolis Motor Speedway.xlsx';  % Works
 % filename = 'FSAE Skidpad.xlsx';  % Works
 % filename = 'Donington Park.xlsx';  % Works
-filename = 'Autodromo Nazionale Monza.xlsx';  % Works
+% filename = 'Autodromo Nazionale Monza.xlsx';  % Works
 
 %% Mode selection
 
-% mode = 'logged data' ;
-mode = 'shape data' ;
+mode = 'logged data' ;
+% mode = 'shape data' ;
 % log_mode = 'speed & yaw' ;
 log_mode = 'speed & latacc' ;
 
